@@ -2,49 +2,36 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chinese in Las Vegas</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flickrish Page</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <header>
-    <h1>Chinese in <span>Las Vegas</span></h1>
-
-    <section id="selection" class="selection-container">
-
-      <div id="filterPrice">
-        <select id="priceDropdown">
-          <option value="">Filter by price</option>
-          <option value="cheap">Low price</option>
-          <option value="mid">Mid price</option>
-          <option value="expen">High price</option>
-        </select>
-      </div>
-
-      <div id="sortPriceContainer">
-        <select id="sortPrice">
-          <option value="" disabled selected>Sort by price</option>
-          <option value="low">Low to high</option>
-          <option value="high">High to low</option>
-        </select>
-      </div>
-
-      <div id="filterDelivery">
-        <select id="deliveryDropdown">
-          <option value="">Choose delivery option</option>
-          <option value="Homedelivery">Home delivery</option>
-          <option value="Online-booking">Online table booking</option>
-        </select>
-      </div>
-
+    <h1>Lisas <span>Flickr Page</span></h1>
   </header>
+  <input id="search" type="text" placeholder="Choose your topic" /><button id="submit" onclick="JavaScriptFetch()">
+    Select
+  </button>
 
+  <div class="wrapper">
+    <ul id="outputDiv" class="card-container">
+      <p style="color: #ffff" ;>LOADING..</p>
+    </ul>
+  </div>
 
-  <section id="resContainer" class="card-container">
+  <div class=" error">
 
-  </section>
+  </div>
+
+  <div class="loading">
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 
