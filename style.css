@@ -45,8 +45,8 @@ ul {
 }
 
 li {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   padding: 13px;
 }
 
@@ -74,7 +74,7 @@ img:last-child {
 
 
 /* MEDIA QUERIES TABLET */
-@media (min-width: 460px) {
+@media (min-width: 350px) {
   ul {
     flex-direction: row;
     flex-wrap: wrap;
@@ -84,11 +84,9 @@ img:last-child {
     flex-grow: 1;
     list-style: none;
     transition: all .9s ease-in-out;
+    width: 200px;
+    height: 200px;
   }
-
-  /*  img {
-    object-fit: cover;
-  } */
 }
 
 @media (min-width: 676px) {
