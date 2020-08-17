@@ -1,15 +1,9 @@
-/* const apiKey = "2cd30dbbc9e3c68b88470a4a41597105"; */
-
 const Flick_URL = "https://api.flickr.com/services/feeds/photos_public.gne?format=json&tags="
 
 const StartGrid = () => {
-  try {
-    let script = document.createElement('script')
-    script.src = Flick_URL + "cat";
-    document.querySelector('head').appendChild(script);
-  } catch {
-    document.getElementById("error").innerHTML = "error";
-  }
+  let script = document.createElement('script')
+  script.src = Flick_URL + "kitten";
+  document.querySelector('head').appendChild(script);
 }
 window.onload = StartGrid;
 
