@@ -12,17 +12,17 @@ Your team has been tasked with using the Zomato API to list Breakfast restaurant
 
 ![Uber Eats](https://i.imgur.com/VSvzuGd.jpg)
 
-## How to complete this task
+## How to complete this task :
 
 We have a very limited time-frame for this project, so we want you to read about the Zomato API and experiment making requests to the `/search` endpoint before we meet up. This way, when you all meet in Stockholm and get assigned your cuisine, location and design, you'll be ready to get going quickly. 
 
 *The following steps should be done during the meet-up:* 
 
-### Step 1
+### Step 1 :
 
 Each member of your team should clone (NOT FORK!) the correct repo for your team.
 
-### Step 2
+### Step 2 :
 
 Togeteher as a mob, do the foundations of the project together. Make sure that you have fetched from the API and presented all data on the page in a suitable HTML structure which you all agree on. You can also use one person's code from the practices as long as **everyone** understands the code. No styling is needed at this point. 
 
@@ -34,11 +34,11 @@ You should now have data from at least 10 restaurants from the `/search` endpoin
 * An image (you choose which image you'd like to display from the response)
 * Either the `aggregate_rating` or the `rating_text` for that restaurant
 
-### Step 3 
+### Step 3 :
 
 Divide into pairs or groups of three and choose freely from the selection of features below. The groups will work separatley on features in their own "feature branch" and we will help you to merge this into the master branch before the demo. Of course; have communication within the group and feel free to merge and commit code when you feel that the time is right. Help each-other and share knowledge in the team is always encouraged. 
 
-### Features
+### Features :
 
 Below are suggestions for features for your site. You're free to choose the ones which are interesting to your team to implement: 
 
